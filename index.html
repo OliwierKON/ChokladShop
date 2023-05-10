@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./js.js"> </script>
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choklad Shop.</title>
+</head>
+<body>
+    <header> 
+     <a href="mailto:johan@johan.johan"> <button class="kontakt"> <h5>kontakta oss</h5> </button></a>
+     <h1> Choklad affär </h1>
+    <div class="dropdown">
+       <img class="cart" src="./img/cart.png" onclick="dropdown()">
+      <div id="cartlista" class="shoplista">
+        <div class="DROPPED"> <article class="texten"> Varukorg:</article>
+       <ul id="prisHållare">   </ul>
+          <button onclick="rensa()"> Rensa Korg </button>
+        </div>
+       </div>
+   </div> 
+  </header>
+    <main>
+    <div class="shop">
+      <div class="shopimg">
+        <img  class="mainimg" src="./img/mjolk.webp" alt=""> <button onclick="addmjolk()"> Lägg till i varukorg </button>
+      </div>
+      <div class="shopimg">
+        <img  class="mainimg" src="./img/mork.webp" alt=""> <button onclick="addmork()"> Lägg till i varukorg </button>
+      </div>
+      <div class="shopimg">
+        <img  class="mainimg" src="./img/vit.webp" alt=""> <button onclick="addvit()"> Lägg till i varukorg </button>
+      </div>
+      <div class="shopimg">
+        <img  class="mainimg" src="./img/frukt.webp" alt=""> <button onclick="addfrukt()"> Lägg till i varukorg </button>
+      </div>
+      <div class="shopimg">
+        <img  class="mainimg" src="./img/nut.webp" alt=""> <button onclick="addhassel()"> Lägg till i varukorg </button>
+      </div>
+      <div class="shopimg">
+        <img  class="mainimg" src="./img/kex.webp" alt=""> <button onclick="addkex()"> Lägg till i varukorg </button>
+      </div>
+    </div>
+    </main>
+</body>
+</html>

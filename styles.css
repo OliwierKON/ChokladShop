@@ -1,0 +1,105 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arimo";
+}
+body{
+    background-color: #554a4a;
+    
+}
+header{
+   background-color:#362f2d; 
+    min-height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around   ;
+}
+.kontakt{
+    border: solid #554a4a;
+    border-radius: 40px;
+    background-color: #fce5e5;
+    color: #583228;
+    min-height: 10vh;
+    min-width: 10vw;
+    font-size: large;
+}
+h1{
+    color: #fce5e5;
+    margin-right: 5%;
+}
+.cart{
+    margin-top:6%;
+  
+}
+.shop{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+.shopimg{
+   gap: 5%;
+   margin: 2%;
+   position: relative;
+}
+.shopimg button{
+  position: absolute;
+  top: 87%;
+  left: 16%;
+  background-color: #6dcff6;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .shoplista {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .shoplista li{
+    margin-left: 9.5%;
+  }
+  .show {display:block;}
+
+  .dropped{
+    width: 50rem;
+  }
+
+  .texten{
+    color: gray;
+  }
+  .cart{
+    height: 11vh;
+  }
+  .mainimg{
+    max-height: 30rem;
+  }
+
+  @media only screen and (min-width: 1008px) {
+   
+    .mainimg{
+      min-height: 30vh;
+    }
+    .shop{
+      max-width: 1236px;
+    }
+    main{
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-around;
+    }
+  }
